@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="text-xl font-bold text-purple-800">
-            Kasthuri<span className="text-purple-500">.</span>
+            Kavya Kasthuri Dodle<span className="text-purple-500">.</span>
           </Link>
 
           {/* Desktop Navigation */}
