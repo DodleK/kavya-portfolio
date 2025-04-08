@@ -97,7 +97,7 @@ const Projects = () => {
                       </div>
                       <div className="space-y-1">
                         <CardTitle className="text-xl text-gray-800">{project.title}</CardTitle>
-                        <CardDescription className="flex flex-col sm:flex-row sm:items-center gap-2 text-gray-600">
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-gray-600">
                           <div className="flex items-center gap-2">
                             <Calendar size={16} />
                             <span>{project.period}</span>
@@ -110,7 +110,7 @@ const Projects = () => {
                             />
                             <span>{project.company}</span>
                           </div>
-                        </CardDescription>
+                        </div>
                       </div>
                     </div>
                   </CardHeader>
