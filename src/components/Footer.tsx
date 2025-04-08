@@ -45,14 +45,14 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-3">Connect With Me</h4>
             <div className="flex space-x-4 justify-center md:justify-end">
               <a 
-                href="mailto:dodlekavyakasthuri@gmail.com" 
+                href="mailto:kavya.dodle@outlook.com" 
                 className="bg-gray-800 hover:bg-purple-600 p-3 rounded-full transition-colors"
                 aria-label="Email"
               >
                 <Mail size={20} />
               </a>
               <a 
-                href="https://linkedin.com/in/kasthuri-dodle" 
+                href="https://linkedin.com/in/dodlekavyakasthuri" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gray-800 hover:bg-purple-600 p-3 rounded-full transition-colors"
@@ -75,7 +75,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} Kasthuri Dodle. All rights reserved.
+            © {new Date().getFullYear()} Kavya Kasthuri Dodle. All rights reserved.
           </p>
           
           <button 

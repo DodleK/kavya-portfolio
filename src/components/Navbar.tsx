@@ -54,14 +54,14 @@ const Navbar = () => {
           {/* Social Links on Desktop */}
           <div className="hidden md:flex items-center space-x-4">
             <a 
-              href="mailto:dodlekavyakasthuri@gmail.com" 
+              href="mailto:kavya.dodle@outlook.com" 
               className="text-gray-600 hover:text-purple-600 transition-colors"
               aria-label="Email"
             >
               <Mail size={20} />
             </a>
             <a 
-              href="https://linkedin.com/in/kasthuri-dodle" 
+              href="https://linkedin.com/in/dodlekavyakasthuri" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-purple-600 transition-colors"
@@ -103,14 +103,14 @@ const Navbar = () => {
               
               <div className="flex items-center space-x-4 pt-4 border-t border-gray-100">
                 <a 
-                  href="mailto:dodlekavyakasthuri@gmail.com" 
+                  href="mailto:kavya.dodle@outlook.com" 
                   className="text-gray-600 hover:text-purple-600 transition-colors"
                   aria-label="Email"
                 >
                   <Mail size={20} />
                 </a>
                 <a 
-                  href="https://linkedin.com/in/kasthuri-dodle" 
+                  href="https://linkedin.com/in/dodlekavyakasthuri" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-purple-600 transition-colors"

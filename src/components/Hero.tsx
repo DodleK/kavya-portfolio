@@ -9,13 +9,13 @@ const Hero = () => {
           <div className="lg:w-1/2 animate-fade-in">
             <img 
               src="/lovable-uploads/profilephoto.png" 
-              alt="Kasthuri Dodle" 
+              alt="Kavya Kasthuri Dodle" 
               className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full mx-auto lg:mx-0 border-4 border-white shadow-xl"
             />
           </div>
           <div className="lg:w-1/2 mt-8 lg:mt-0 text-center lg:text-left animate-slide-right animate-delay-200">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading">
-              Hello, I'm <span className="text-purple-600">Kasthuri</span>
+              Hello, I'm <span className="text-purple-600">Kavya Kasthuri Dodle</span>
             </h1>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium mt-4 text-gray-700">
               Data Engineer & Analytics Expert

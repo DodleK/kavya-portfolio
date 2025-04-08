@@ -52,8 +52,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-purple-200">Email</h4>
-                    <a href="mailto:dodlekavyakasthuri@gmail.com" className="text-white hover:text-purple-300 transition-colors">
-                      dodlekavyakasthuri@gmail.com
+                    <a href="mailto:kavya.dodle@outlook.com" className="text-white hover:text-purple-300 transition-colors">
+                    kavya.dodle@outlook.com
                     </a>
                   </div>
                 </div>
@@ -65,25 +65,13 @@ const Contact = () => {
                   <div>
                     <h4 className="text-lg font-medium text-purple-200">LinkedIn</h4>
                     <a 
-                      href="https://linkedin.com/in/kasthuri-dodle" 
+                      href="https://linkedin.com/in/dodlekavyakasthuri" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-white hover:text-purple-300 transition-colors"
                     >
-                      linkedin.com/in/kasthuri-dodle
+                      linkedin.com/in/dodlekavyakasthuri
                     </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-purple-800 p-3 rounded-lg mr-4">
-                    <MapPin size={20} className="text-purple-200" />
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-medium text-purple-200">Location</h4>
-                    <p className="text-white">
-                      Renton, Washington, United States
-                    </p>
                   </div>
                 </div>
               </div>
