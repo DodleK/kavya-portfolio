@@ -6,15 +6,15 @@ const skillCategories = [
   },
   {
     title: "Data Tools & Technologies",
-    skills: ["Tableau", "Power BI", "ETL", "Azure", "AWS", "PostgreSQL", "MySQL"]
+    skills: ["Tableau", "Power BI", "ETL", "Azure", "AWS", "PostgreSQL", "MySQL", "Pandas", "NumPy", "Matplotlib", "Beautiful Soup", "Excel", "VBA"]
   },
   {
     title: "Data Science & ML",
-    skills: ["Machine Learning", "Data Analytics", "Statistical Analysis", "Deep Learning", "NLP", "Large Language Models"]
+    skills: ["Machine Learning", "Data Analytics", "Statistical Analysis", "Deep Learning", "NLP", "Large Language Models", "Artificial Neural Networks", "TensorFlow", "Keras", "Scikit-Learn"]
   },
   {
     title: "DevOps & Tools",
-    skills: ["Git", "Jira", "Docker", "CI/CD", "Agile", "Project Management"]
+    skills: ["Git", "Jira", "Docker", "CI/CD", "Agile", "Project Management", "LaTeX"]
   }
 ];
 

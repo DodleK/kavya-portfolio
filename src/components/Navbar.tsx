@@ -45,6 +45,7 @@ const Navbar = () => {
             <a href="#about" className="nav-link">About</a>
             <a href="#experience" className="nav-link">Experience</a>
             <a href="#education" className="nav-link">Education</a>
+            <a href="#projects" className="nav-link">Projects</a>
             <a href="#skills" className="nav-link">Skills</a>
             <a href="#certifications" className="nav-link">Certifications</a>
             <a href="#contact" className="nav-link">Contact</a>
@@ -95,6 +96,7 @@ const Navbar = () => {
               <a href="#about" onClick={closeMenu} className="nav-link">About</a>
               <a href="#experience" onClick={closeMenu} className="nav-link">Experience</a>
               <a href="#education" onClick={closeMenu} className="nav-link">Education</a>
+              <a href="#projects" onClick={closeMenu} className="nav-link">Projects</a>
               <a href="#skills" onClick={closeMenu} className="nav-link">Skills</a>
               <a href="#certifications" onClick={closeMenu} className="nav-link">Certifications</a>
               <a href="#contact" onClick={closeMenu} className="nav-link">Contact</a>
