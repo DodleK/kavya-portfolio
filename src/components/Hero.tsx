@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 animate-fade-in">
             <img 
-              src="/lovable-uploads/f572fc0f-58f9-4e66-b58c-ae8c52f65f96.png" 
+              src="/lovable-uploads/b381d12b-7eb3-4180-a5a4-2271f64ab935.png" 
               alt="Kasthuri Dodle" 
               className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full mx-auto lg:mx-0 border-4 border-white shadow-xl"
             />
