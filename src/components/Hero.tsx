@@ -1,5 +1,5 @@
 
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, ExternalLink } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -36,6 +36,15 @@ const Hero = () => {
                 className="px-6 py-3 rounded-md border border-purple-600 text-purple-600 font-medium hover:bg-purple-50 transition-colors"
               >
                 See My Work
+              </a>
+              <a 
+                href="https://medium.com/@dodle" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 rounded-md bg-gray-800 text-white font-medium hover:bg-gray-900 transition-colors flex items-center gap-2"
+              >
+                <ExternalLink size={16} />
+                Read My Blog
               </a>
             </div>
           </div>

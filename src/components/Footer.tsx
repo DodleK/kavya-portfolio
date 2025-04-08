@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { LinkedinIcon, Mail, ArrowUp } from 'lucide-react';
+import { LinkedinIcon, Mail, ArrowUp, ExternalLink } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -59,6 +59,15 @@ const Footer = () => {
                 aria-label="LinkedIn"
               >
                 <LinkedinIcon size={20} />
+              </a>
+              <a 
+                href="https://medium.com/@dodle" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gray-800 hover:bg-purple-600 p-3 rounded-full transition-colors"
+                aria-label="Medium"
+              >
+                <ExternalLink size={20} />
               </a>
             </div>
           </div>
