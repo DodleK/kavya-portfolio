@@ -8,7 +8,7 @@ const experiences = [
     period: "May 2024 - Present",
     location: "United States",
     description: "Working on data engineering solutions to transform raw data into actionable insights.",
-    logo: "/lovable-uploads/5217ec9e-e51a-48ac-9f09-48709cd5d9be.png"
+    logo: "/lovable-uploads/avanit-logo.png"
   },
   {
     title: "Student Assistant at Retail Dining",
@@ -16,7 +16,7 @@ const experiences = [
     period: "Dec 2023 - May 2024",
     location: "Denton, Texas, United States",
     description: "Student Assistant at Food Court",
-    logo: "/lovable-uploads/4e299b90-667c-4e78-b02f-ba5ce08fa734.png"
+    logo: "/lovable-uploads/unt-logo.png"
   },
   {
     title: "Graduate Teaching Assistant",
@@ -24,7 +24,7 @@ const experiences = [
     period: "Jan 2023 - May 2023",
     location: "United States",
     description: "Mentored students in analytics and data processing.",
-    logo: "/lovable-uploads/4e299b90-667c-4e78-b02f-ba5ce08fa734.png"
+    logo: "/lovable-uploads/unt-logo.png"
   },
   {
     title: "Data Analyst",
@@ -32,7 +32,7 @@ const experiences = [
     period: "Jun 2020 - Jul 2022",
     location: "India (Remote)",
     description: "Worked with various tools including Jira, Extract, Transform, Load (ETL) technologies and 24+ other skills.",
-    logo: "/lovable-uploads/c889fb85-8642-4069-8ef4-18538a5117e0.png"
+    logo: "/lovable-uploads/cognizant-logo.png"
   },
   {
     title: "Data Analyst",
@@ -40,7 +40,7 @@ const experiences = [
     period: "Jan 2019 - Jun 2020",
     location: "Hyderabad, Telangana, India",
     description: "Used tools like Jira, MySQL and 12+ other skills.",
-    logo: "/lovable-uploads/5b4af1d5-7886-4459-bde8-d6c36daa999d.png"
+    logo: "/lovable-uploads/buzzworks-logo.png"
   }
 ];
 

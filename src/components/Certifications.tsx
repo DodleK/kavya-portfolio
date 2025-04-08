@@ -4,42 +4,42 @@ const certifications = [
     title: "Tableau Certified Data Analyst",
     issuer: "Udemy",
     date: "Jul 2024",
-    logo: "/lovable-uploads/58a5b6e3-407a-4ba2-9a25-adfc5940f7be.png",
+    logo: "/lovable-uploads/udemy.png",
     skills: ["Tableau"]
   },
   {
     title: "Introduction to Python",
     issuer: "DataCamp",
     date: "Sep 2023",
-    logo: "/lovable-uploads/807a73d0-e33d-434e-8d02-6fbcd1176595.png",
+    logo: "/lovable-uploads/datacamp.png",
     skills: ["Python", "Data Analysis"]
   },
   {
     title: "Data Analytics and Visualization Virtual Experience",
     issuer: "Accenture",
     date: "Aug 2023",
-    logo: "/lovable-uploads/58a5b6e3-407a-4ba2-9a25-adfc5940f7be.png",
+    logo: "/lovable-uploads/Accenture-logo.jpg",
     skills: ["Data Analytics", "Data Visualization"]
   },
   {
     title: "Excel: Mother of Business Intelligence",
     issuer: "Codebasics",
     date: "Jan 2025",
-    logo: "/lovable-uploads/58a5b6e3-407a-4ba2-9a25-adfc5940f7be.png",
+    logo: "/lovable-uploads/codebasics-logo.jpeg",
     skills: ["Microsoft Excel"]
   },
   {
     title: "Microsoft Azure Fundamentals (AZ-900)",
     issuer: "DataCamp",
     date: "Oct 2024",
-    logo: "/lovable-uploads/807a73d0-e33d-434e-8d02-6fbcd1176595.png",
+    logo: "/lovable-uploads/datacamp.png",
     skills: ["Microsoft Azure"]
   },
   {
     title: "Introduction to Large Language Models",
     issuer: "Google",
     date: "Jul 2024",
-    logo: "/lovable-uploads/58a5b6e3-407a-4ba2-9a25-adfc5940f7be.png",
+    logo: "/lovable-uploads/google.jpeg",
     skills: ["LLMs", "NLP", "AI"]
   }
 ];

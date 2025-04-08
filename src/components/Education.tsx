@@ -7,7 +7,7 @@ const educations = [
     institution: "University of North Texas",
     period: "Aug 2022 - May 2024",
     location: "Denton, Texas",
-    logo: "/lovable-uploads/4e299b90-667c-4e78-b02f-ba5ce08fa734.png",
+    logo: "/lovable-uploads/unt-logo.png",
     skills: "Exploratory Data Analysis, Cybersecurity and +9 skills"
   },
   {
@@ -15,7 +15,7 @@ const educations = [
     institution: "Jawaharlal Nehru Technological University",
     period: "Jul 2016 - Sep 2020",
     location: "Hyderabad, India",
-    logo: "/lovable-uploads/0e302dbd-33a7-48cb-b43f-5892f0a78bfe.png",
+    logo: "/lovable-uploads/jntuh-logo.png",
     skills: "Project Management, PostgreSQL and +4 skills"
   }
 ];
