@@ -3,7 +3,8 @@
 ## Project info
 
 **URL**: https://lovable.dev/projects/ed4ff469-e83f-49af-a1e0-29c58ff2a6e2
-**MY-PORTFOLIO**: https://kavya-portfolio.lovable.app/
+
+**MY_PORTFOLIO**: https://kavya-portfolio.lovable.app/
 
 ## How can I edit this code?
 
