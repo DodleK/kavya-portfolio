@@ -23,16 +23,16 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
-      // EmailJS service parameters - you'll need to replace these with your own
+      // EmailJS service parameters
       const templateParams = {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
+        to_email: 'kavya.dodle@outlook.com', // Your email address
         to_name: 'Kavya', // Your name
       };
 
       // Send the email using EmailJS
-      // You need to create an account at emailjs.com and get your own serviceID, templateID and userID
       await emailjs.send(
         'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
         'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
