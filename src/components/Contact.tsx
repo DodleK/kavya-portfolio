@@ -23,36 +23,49 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
-      // EmailJS service parameters
+      console.log('Attempting to send email with the following parameters:');
+      
+      // EmailJS service parameters - using the correct IDs provided
       const templateParams = {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
-        to_email: 'kavya.dodle@outlook.com', // Your email address
         to_name: 'Kavya', // Your name
       };
+      
+      console.log('Template params:', templateParams);
+      console.log('Using service ID:', 'service_bxdwwo6');
+      console.log('Using template ID:', 'template_cgrw7op');
 
-      // Send the email using EmailJS
-      await emailjs.send(
+      // Send the email using EmailJS with proper error handling
+      const response = await emailjs.send(
         'service_bxdwwo6', // Your EmailJS service ID
         'template_cgrw7op', // Your EmailJS template ID
         templateParams,
         'Tt56yk8HcSwoxtvxW' // Your EmailJS user ID
       );
       
-      // Display success toast
-      toast({
-        title: "Message sent!",
-        description: "Thank you for reaching out. I'll get back to you soon.",
-      });
+      console.log('EmailJS response:', response);
       
-      // Reset the form
-      setFormData({ name: '', email: '', message: '' });
+      if (response.status === 200) {
+        // Display success toast
+        toast({
+          title: "Message sent!",
+          description: "Thank you for reaching out. I'll get back to you soon.",
+        });
+        
+        // Reset the form
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        throw new Error(`EmailJS returned status ${response.status}`);
+      }
     } catch (error) {
       console.error('Error sending email:', error);
+      
+      // More detailed error message
       toast({
         title: "Error sending message",
-        description: "There was a problem sending your message. Please try again later.",
+        description: "There was a problem sending your message. Please check your network connection and try again.",
         variant: "destructive",
       });
     } finally {
