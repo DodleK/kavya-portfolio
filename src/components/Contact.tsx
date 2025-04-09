@@ -34,10 +34,10 @@ const Contact = () => {
 
       // Send the email using EmailJS
       await emailjs.send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_bxdwwo6', // Your EmailJS service ID
+        'template_cgrw7op', // Your EmailJS template ID
         templateParams,
-        'YOUR_USER_ID' // Replace with your EmailJS user ID
+        'Tt56yk8HcSwoxtvxW' // Your EmailJS user ID
       );
       
       // Display success toast
