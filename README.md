@@ -1,3 +1,4 @@
+
 # Welcome to your Lovable project
 
 ## Project info
@@ -5,6 +6,17 @@
 **URL**: https://lovable.dev/projects/ed4ff469-e83f-49af-a1e0-29c58ff2a6e2
 
 **MY_PORTFOLIO**: https://kavya-portfolio.lovable.app/
+
+**GitHub Pages**: https://dodlekavyakasthuri.github.io/kavya-portfolio/
+
+## Deploying to GitHub Pages
+
+1. Create a GitHub repository named `kavya-portfolio` (or any name you prefer).
+2. Push your code to the main branch of this repository.
+3. Run deployment using one of these methods:
+   - Use the GitHub workflow by pushing to the main branch (automatic)
+   - Run the deployment script: `chmod +x deploy.sh && ./deploy.sh` (manual)
+4. Your site will be available at `https://dodlekavyakasthuri.github.io/kavya-portfolio/`
 
 ## How can I edit this code?
 
