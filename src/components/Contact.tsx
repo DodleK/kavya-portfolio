@@ -37,9 +37,6 @@ const Contact = () => {
       console.log('Using service ID:', 'service_bxdwwo6');
       console.log('Using template ID:', 'template_cgrw7op');
 
-      // Initialize EmailJS if not done elsewhere
-      emailjs.init('Tt56yk8HcSwoxtvxW');
-
       // Send the email using EmailJS with proper error handling
       const response = await emailjs.send(
         'service_bxdwwo6', // Your EmailJS service ID
