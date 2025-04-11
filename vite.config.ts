@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/", // This will be updated when deploying to GitHub Pages
+  base: "/kavya.github.io/", // Updated base path to match repository name
   plugins: [
     react(),
     mode === 'development' &&
