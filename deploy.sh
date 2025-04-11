@@ -19,7 +19,7 @@ git checkout -b main
 git add -A
 git commit -m 'deploy'
 
-# updated repository name to kavya.github.io
-git push -f git@github.com:dodlekavyakasthuri/kavya.github.io.git main:gh-pages
+# replace 'username' with your GitHub username and 'repository-name' with your repository name
+git push -f git@github.com:dodlekavyakasthuri/kavya-portfolio.git main:gh-pages
 
 cd -
