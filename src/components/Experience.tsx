@@ -1,20 +1,22 @@
 
-import { Briefcase } from 'lucide-react';
+import { Briefcase, Building } from 'lucide-react';
 
 const experiences = [
   {
-    title: "Data Engineer",
+    title: "Senior Data Engineer",
     company: "AVAN IT LLC",
-    period: "May 2024 - Present",
+    period: "Jul 2024 - Present",
+    duration: "11 mos",
     location: "United States",
     description: "Working on data engineering solutions to transform raw data into actionable insights.",
     logo: "/lovable-uploads/avanit-logo.png"
   },
   {
-    title: "Student Assistant at Retail Dining",
+    title: "Student Assistant",
     company: "University of North Texas",
     period: "Dec 2023 - May 2024",
-    location: "Denton, Texas, United States",
+    duration: "6 mos",
+    location: "Texas, United States",
     description: "Student Assistant at Food Court",
     logo: "/lovable-uploads/unt-logo.png"
   },
@@ -22,25 +24,46 @@ const experiences = [
     title: "Graduate Teaching Assistant",
     company: "University of North Texas",
     period: "Jan 2023 - May 2023",
-    location: "United States",
+    duration: "5 mos",
+    location: "Texas, United States",
     description: "Mentored students in analytics and data processing.",
     logo: "/lovable-uploads/unt-logo.png"
   },
   {
-    title: "Data Analyst",
+    title: "Student Assistant",
+    company: "University of North Texas",
+    period: "Aug 2022 - Dec 2022",
+    duration: "5 mos",
+    location: "Texas, United States",
+    description: "Assisted with university operations and student services.",
+    logo: "/lovable-uploads/unt-logo.png"
+  },
+  {
+    title: "Data Engineer",
     company: "Cognizant",
-    period: "Jun 2020 - Jul 2022",
-    location: "India (Remote)",
-    description: "Worked with various tools including Jira, Extract, Transform, Load (ETL) technologies and 24+ other skills.",
+    period: "Jan 2021 - Jul 2022",
+    duration: "1 yr 7 mos",
+    location: "India",
+    description: "Worked with various tools including Jira, Extract, Transform, Load (ETL), Machine Learning, MySQL, Microsoft Excel, Tableau, Keras, Oracle Database, Scikit-Learn, SQL, Apache Spark, Scrum, Project Management, R, Exploratory Data Analysis, Snowflake, Microsoft Power BI, Python, TensorFlow, AWS, Data Analysis, Hadoop, Amazon Redshift, Informatica, and IICS.",
     logo: "/lovable-uploads/cognizant-logo.png"
   },
   {
-    title: "Data Analyst",
+    title: "Data Engineer",
     company: "Buzzworks Business Services Pvt. Ltd.",
-    period: "Jan 2019 - Jun 2020",
+    period: "Jan 2020 - Dec 2020",
+    duration: "1 yr",
     location: "Hyderabad, Telangana, India",
-    description: "Used tools like Jira, MySQL and 12+ other skills.",
+    description: "Used tools like Jira, MySQL, Microsoft Excel, Informatica IICS, Tableau, Oracle Database, SQL, Apache Spark, Scrum, Project Management, Microsoft Power BI, Python, Informatica, and IICS.",
     logo: "/lovable-uploads/buzzworks-logo.png"
+  },
+  {
+    title: "Data Analyst/Engineer Intern",
+    company: "LKKN Consultants Pvt Limited",
+    period: "May 2019 - Dec 2019",
+    duration: "8 mos",
+    location: "India",
+    description: "Internship focused on data analysis and engineering fundamentals.",
+    logo: ""
   }
 ];
 
@@ -61,7 +84,11 @@ const Experience = () => {
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="flex-shrink-0 flex justify-center">
                     <div className="w-16 h-16 rounded-full bg-white p-2 flex items-center justify-center shadow-md">
-                      <img src={exp.logo} alt={exp.company} className="max-w-full max-h-full" />
+                      {exp.logo ? (
+                        <img src={exp.logo} alt={exp.company} className="max-w-full max-h-full" />
+                      ) : (
+                        <Building size={32} className="text-gray-400" />
+                      )}
                     </div>
                   </div>
                   
@@ -73,6 +100,7 @@ const Experience = () => {
                       <div className="flex items-center mr-4">
                         <Briefcase size={16} className="mr-1" />
                         <span>{exp.period}</span>
+                        {exp.duration && <span className="ml-1">· {exp.duration}</span>}
                       </div>
                       <div className="mt-1 md:mt-0">
                         <span>{exp.location}</span>
