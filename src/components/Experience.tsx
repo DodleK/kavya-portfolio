@@ -1,4 +1,3 @@
-
 import { Briefcase, Building } from 'lucide-react';
 
 const experiences = [
@@ -17,7 +16,7 @@ const experiences = [
     period: "Dec 2023 - May 2024",
     duration: "6 mos",
     location: "Texas, United States",
-    description: "Student Assistant at Food Court",
+    description: "Managed inventory tracking and database updates while collaborating in a fast-paced team environment. Demonstrated strong organizational skills, attention to detail, and effective communication with diverse stakeholders while maintaining high customer satisfaction ratings.",
     logo: "/lovable-uploads/unt-logo.png"
   },
   {
