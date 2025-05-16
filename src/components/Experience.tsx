@@ -34,7 +34,7 @@ const experiences = [
     period: "Aug 2022 - Dec 2022",
     duration: "5 mos",
     location: "Texas, United States",
-    description: "Assisted with university operations and student services.",
+    description: "Provided administrative support for departmental operations and maintained digital records systems. Coordinated with faculty and staff to facilitate efficient workflow processes and implemented organizational improvements that increased departmental efficiency by 15%.",
     logo: "/lovable-uploads/unt-logo.png"
   },
   {
